@@ -1,0 +1,28 @@
+name: Deploy and Notify
+
+on:
+  push:
+    branches:
+      - master # 根据您的需求调整分支名称
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build and Deploy
+        # 此处添加您的构建和部署步骤，例如使用 gh-pages 或其他方式部署
+
+      - name: Send Email on Success
+        uses: dawidd6/action-send-mail@v3
+        if: success()
+        with:
+          server_address: smtp.qq.com
+          server_port: 465
+          username: 2645929971@qq.com
+          password: jwhoxztqusjjdjcb
+          subject: Deployment Successful
+          body: The project has been successfully deployed.
+          to: 15173413245@163.com
