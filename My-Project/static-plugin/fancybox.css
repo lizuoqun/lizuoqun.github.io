@@ -8,12 +8,10 @@
 }
 
 .carousel.is-draggable {
-    cursor: move;
     cursor: grab
 }
 
 .carousel.is-dragging {
-    cursor: move;
     cursor: grabbing
 }
 
@@ -318,8 +316,6 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 
 .carousel__button.is-close {
     position: absolute;
-    top: 8px;
-    right: 8px;
     top: calc(env(safe-area-inset-top, 0px) + 8px);
     right: calc(env(safe-area-inset-right, 0px) + 8px);
     z-index: 40
@@ -506,12 +502,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 }
 
 .fancybox__carousel.is-draggable .fancybox__slide, .fancybox__carousel.is-draggable .fancybox__slide .fancybox__content {
-    cursor: move;
     cursor: grab
 }
 
 .fancybox__carousel.is-dragging .fancybox__slide, .fancybox__carousel.is-dragging .fancybox__slide .fancybox__content {
-    cursor: move;
     cursor: grabbing
 }
 
@@ -528,12 +522,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 }
 
 .fancybox__carousel .fancybox__slide.is-draggable .fancybox__content {
-    cursor: move;
     cursor: grab
 }
 
 .fancybox__carousel .fancybox__slide.is-dragging .fancybox__content {
-    cursor: move;
     cursor: grabbing
 }
 
@@ -651,7 +643,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 .fancybox__thumbs {
     flex: 0 0 auto;
     position: relative;
-    padding: 0px 3px;
+    padding: 0 3px;
     opacity: var(--fancybox-opacity, 1)
 }
 
