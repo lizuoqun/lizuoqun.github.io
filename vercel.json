@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/My-Project/assets/:file*",
+      "destination": "/assets/:file*"
+    },
+    {
+      "source": "/My-Project/",
+      "destination": "/"
+    },
+    {
+      "source": "/My-Project/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
