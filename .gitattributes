@@ -1,2 +1,2 @@
 # 忽略所有 .js 文件的语言统计
-*.js linguist-language=none
+*.html linguist-language=none
