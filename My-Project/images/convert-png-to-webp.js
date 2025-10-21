@@ -8,8 +8,8 @@ const sharp = require('sharp');
 
 // 配置项
 const config = {
-  inputDir: './02324/',           // 输入目录（你的 PNG 所在目录）
-  outputDir: './02324/',          // 输出目录（可设为不同目录）
+  inputDir: './15043/',           // 输入目录（你的 PNG 所在目录）
+  outputDir: './15043/',          // 输出目录（可设为不同目录）
   quality: 80,                    // WebP 质量 (0-100)
   deleteOriginal: false,          // 是否删除原 PNG 文件
   recursive: true                // 是否递归处理子目录

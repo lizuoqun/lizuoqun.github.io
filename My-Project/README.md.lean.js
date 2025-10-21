@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,aP as e}from"./framework.js";const g=JSON.parse('{"title":"开始","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md","lastUpdated":1758782417000}'),l={name:"README.md"};function p(t,s,h,r,k,d){return n(),a("div",null,s[0]||(s[0]=[e("",20)]))}const o=i(l,[["render",p]]);export{g as __pageData,o as default};
